@@ -1,5 +1,6 @@
 
 import './App.css'
+import FormAction from './components/FormAction/FormAction'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
 
    <div>
 
-    <SimpleForm></SimpleForm>
+    {/* <SimpleForm></SimpleForm> */}
+
+    <FormAction></FormAction>
    </div>
    </div>
   )

@@ -1,5 +1,6 @@
 
 import './App.css'
+import ControlledFiled from './components/ControlledField/ControlledFiled'
 import FormAction from './components/FormAction/FormAction'
 import SimpleForm from './components/SimpleForm/SimpleForm'
 
@@ -14,7 +15,9 @@ function App() {
 
     {/* <SimpleForm></SimpleForm> */}
 
-    <FormAction></FormAction>
+    {/* <FormAction></FormAction> */}
+
+    <ControlledFiled></ControlledFiled>
    </div>
    </div>
   )
